@@ -14,12 +14,23 @@ public class Product {
         this.price = price;
     }
     public Long getId(){
+
         return id;
     }
     public String getName(){
         return name;
     }
     public double getPrice(){
+
         return price;
+    }
+    public void setId(Long aLong){
+        this.id = id;
+    }
+    public void setName(){
+        this.name = name;
+    }
+    public void setprice(){
+        this.price = price;
     }
 }
